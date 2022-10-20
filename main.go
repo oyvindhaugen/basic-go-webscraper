@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	fName := "nrk_links.xlsx"
+	fName := "nrk_links.csv"
 	file, err := os.Create(fName)
 	if err != nil {
 		log.Fatal(err)
